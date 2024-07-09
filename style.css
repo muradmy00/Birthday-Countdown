@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  margin: 0;
+  background-image: url(Image/img.png);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+
+}
+
+#name{
+    color: #ffe65b;
+}
+
+#name:hover{
+    color: #736d4a;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: -10rem;
+
+}
+
+.countdown_container{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.text{
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown_box{
+    text-align: center;
+}
